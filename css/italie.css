@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+    
+    color:red;  
+    margin-left: 18%;
+    margin-top: 20px;
+  
+}
+h2{ margin-bottom: 5px;}
+span
+{font-weight: 400;}
+p,li{
+    
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+  
+    
+   
+
+}
+ol{
+    padding-left:30px ;
+}
+.container_description{
+  background-color: rgba(255,255,255,.5);
+  font-family: 'Times New Roman', Times, serif;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 30px;
+  margin-left: 15%;
+  width:50%;
+  }
+.container_table{
+  background-color: rgba(255,255,255,.5);
+  font-family: 'Times New Roman', Times, serif;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 30px;
+  margin-left: 15%;
+  width:fit-content;
+  }
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 10px;
+}
+main{
+    
+    
+    min-height: calc(100vh - 160px);
+    
+}
+body{
+    background-image: url("../images/italian.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+header{
+ display: flex;
+ justify-content: center;
+ 
+ 
+}
+
+
+footer{
+    height:80px
+}
+.flag{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-left:15%;
+  margin-bottom: 15px;
+  animation-duration: 5s;
+  animation-name: spin;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+  
+}
+
+@keyframes spin{
+ 0%{}
+ 100%{transform: rotate(360deg);}
+ 
+}
+
+
+.container_info{
+  background-color:rgba(255,255,255,.5);
+  border-radius: 20px;
+  height: 100px;
+  margin-left: 15%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  animation-duration: 5s;
+  animation-name: anim;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+
+}
+@keyframes anim{
+ 0%   { }
+
+ 100%  {scale: 0.8;}
+}
+.info{
+    font-size:25px;
+    color: black;   
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info p{
+    font-size:20px;
+    margin-right: 20px;
+    color: blue;   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bouton_retour{
+    height: 20px;
+    width: 20px;
+}
+
+.bouton_retour{
+  
+   width: fit-content;
+   height: 100%;
+   display: flex;
+   justify-items: center;
+   margin-left:50px;
+  
+}
+a{
+  text-decoration:none;
+  
+}
+
+@media(min-width:1000px)
+{          
+       .container_info{
+        display: flex;
+        flex-direction: row;
+       }
+    }
