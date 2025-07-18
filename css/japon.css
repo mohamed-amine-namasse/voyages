@@ -1,8 +1,8 @@
- body {
+body {
       margin: 0;
       padding: 0;
       height: 100vh;
-      background-image: url(images/Tokyo.gif
+      background-image: url(../images/Tokyo.gif
       ); 
       background-size: cover;      
      
@@ -98,10 +98,6 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
-
-      
-
 
 
       
