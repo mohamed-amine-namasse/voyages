@@ -140,11 +140,11 @@ ul li a:hover::after {
 }
 
 .left-image-1 {
-    background: url('image/ville\ 1.jpg') center/cover;
+    background: url("../images/ville\ 1.jpg") center/cover;
 }
 
 .left-image-2 {
-    background: url('image/savane.jpg') center/cover;
+    background: url("../images/savane.jpg") center/cover;
     margin-top: 2rem;
 }
 
